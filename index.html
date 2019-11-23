@@ -63,7 +63,7 @@
                   8 (937) <span class="mobile-style">363-30-00</span>
                 </div>
               </div>
-              <button class="button">
+              <button class="button button-popup">
                 <img src="img/header/header-icon.png" alt="phone-logo"><span class="mobile-hide">Заказать звонок</span>
               </button>
             </div>
@@ -638,11 +638,13 @@
     <!-- OVERLAY -->
     <script>
       $(document).ready(function(){
-        $('.header-contacts__button').on("click", function(){
+        $('.button-popup').on("click", function(){
         $('.overlay').show();
+        $('.menu').hide();
         });
         $('.popup-close').on("click", function(){
         $('.overlay').hide();
+        $('.menu').show()
         });
       });
     </script>
