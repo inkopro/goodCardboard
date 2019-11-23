@@ -1,0 +1,274 @@
+@media (max-width: 576px)
+	.mobile-style
+		font-weight: 900
+	.mobile-hide
+		display: none
+	.slide-hide
+		display: none
+	.section-title
+		font-size: 22px
+		font-weight: 900
+		&::after
+			content: none
+	.form_small
+		font-size: 13px
+		width: 200px
+	
+	.header
+		padding: 10px
+		&-logo
+			background: #ff9d00 url(../img/header/header-logo_mobile.png) no-repeat center 
+			width: 35px
+			height: 35px
+			border: 4px
+			margin-top: 3px
+		&-contacts
+			&__phone
+				&s
+					display: block
+				font-size: 14px
+				margin-right: 0
+				margin-bottom: 1px
+				&:first-child
+					border-right: none
+			button
+				display: inline-block
+				padding: 10px
+
+
+	.subheader
+		text-align: center
+		&-text
+			width: 282px
+			margin: 0 auto
+			&__title
+				font-size: 22px
+				color: #ff9d00
+				font-weight: 900
+				margin-bottom: 9px	
+			&__subtitle
+				font-size: 18px
+				margin-bottom: 0
+			&__form
+				background: transparent
+		.form
+			flex-direction: column
+			button
+				width: 180px
+				margin: 0 auto
+				margin-bottom: 15px
+			&-title
+				font-size: 15px
+				font-weight: 300
+				line-height: 18px
+			&_uppercase
+				font-size: 15px
+				display: block
+			&-input
+				margin-right: 0
+			
+
+
+	.features
+		padding-top: 20px
+		padding-bottom: 40px
+		.number
+			flex-direction: column
+			&-block
+				width: 100%
+				line-height: 18px
+				margin-bottom: 20px
+				&:nth-child(3)
+					margin-bottom: 0
+				&__title
+					font-size: 30px
+					font-weight: 900
+				&__text
+					font-size: 14px
+		&-blocks
+			flex-direction: column
+		&-block
+			margin-bottom: 10px
+
+
+	.products
+		padding-top: 30px
+		padding-bottom: 40px
+		&-block
+			img
+				width: 100%
+				margin-bottom: 10px
+			&__title
+				font-size: 18px
+				margin-bottom: 10px
+		button
+			padding: 13px 20px
+
+
+	.offer
+		padding: 45px
+		&-title
+			font-size: 20px
+			font-weight: 900
+			span
+				font-size: 14px
+				font-weight: 300
+				margin-top: 10px
+				margin-bottom: 0
+		&-form
+			&__label
+				font-size: 14px
+				font-weight: 300
+			&__input
+				width: 100%
+	.production
+		padding-top: 30px
+		padding-bottom: 50px
+		&-slider_bottom
+			height: auto
+		&-text
+			&__title
+				font-size: 20px
+				font-weight: 900
+				text-align: center
+				margin-left: 0
+				width: 100%
+				padding: 10px
+				margin-bottom: 10px
+			&__descr
+				font-size: 14px
+				text-align: center
+				margin-bottom: 10px
+
+
+	.clients
+		padding-bottom: 30px
+		&-block
+			width: 100%
+			height: 80px
+			margin-bottom: 10px
+
+	.feedback
+		padding-top: 25px
+		padding-bottom: 40px
+	.slider-arrow_feed
+		border: 1px solid #ff9d00
+		height: 77px
+		margin-top: 145px
+	.slider-arrow_feedright
+		background: #ff9d00 url(../img/arrow-right_mobile.png) no-repeat center
+	.slider-arrow_feedleft
+		background: #ff9d00 url(../img/arrow-left_mobile.png) no-repeat center 
+
+	.contacts
+		&-block
+			position: static
+			text-align: center
+			&::before
+				content: 'Контакты'
+				font-size: 22px
+				font-weight: 900
+				display: block
+				margin-bottom: 20px
+			&__adress
+			::after
+				content: none
+			&__title
+				span
+					font-size: 14px
+			&__phone
+				&::after
+					content: none
+			&__button
+			&__mail
+				&::after
+					content: none
+	.footer
+		&-text
+			font-size: 11px
+
+@media (max-width: 991px)
+	.mobile-hide
+		display: none
+	.header
+		padding: 15px
+		&-logo
+			background: #ff9d00 url(../img/header/header-logo_mobile.png) no-repeat center 
+			width: 40px
+			height: 40px
+			border: 4px
+			margin-top: 3px
+		&-contacts
+			&__phone
+				font-size: 15px
+				font-weight: 900
+		.button
+			padding: 10px 15px
+	.subheader
+	.features
+		.number
+			&-block
+				&:first-child
+					margin-top: 8px
+				&__title
+					font-size: 20px
+				&__text
+					font-size: 11px
+					font-weight: 900
+		&-blocks
+		&-block
+			flex-basis: 40%
+			padding: 0
+			&__title
+				font-size: 14px
+				font-weight: 700
+				margin-bottom: 0
+			&__decsr
+				font-size: 13px
+
+	.production
+		&-text
+			max-width: 100%
+			&__descr
+				text-align: center
+				margin-bottom: 10px
+			&__title
+				width: 100%
+				margin-left: 0
+				text-align: center
+
+	.clients
+		&-block
+			width: 100%
+
+	.contacts
+		&-block
+			position: static
+			text-align: center
+			&::before
+				content: 'Контакты'
+				font-size: 22px
+				font-weight: 900
+				display: block
+				margin-bottom: 20px
+			&__adress
+			::after
+					content: none
+			&__title
+				span
+					font-size: 14px
+			&__phone
+				&::after
+					content: none
+			&__button
+			&__mail
+				&::after
+					content: none
+	
+@media (min-width: 992px)
+	.mobile-hide
+		display: none
+
+@media (min-width: 1200px)
+	.mobile-hide
+		display: block 
